@@ -102,14 +102,15 @@ export default function KirchaPage() {
                 key={id}
                 className="bg-white border border-gray-200 rounded-lg shadow-md flex-1"
               >
-                <Image
-                  className="rounded-t-lg object-cover w-full h-64"
-                  src={imageSrc}
-                  alt={name}
-                  height={100}
-                  width={150}
-                  loading="lazy"
-                />
+               <Image
+  className="rounded-t-lg object-cover w-full h-64"
+  src={imageSrc}
+  alt={name}
+  height={256}
+  width={512}
+  loading="lazy"
+/>
+
                 <div className="p-4 space-y-1">
                   <p className="text-sm ">{name}</p>
                   <p className="text-sm">
